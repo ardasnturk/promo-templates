@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+out/
+.env
+.env.*
+# Remotion agent skills (`npx remotion skills add`)
+.agents/
+.claude/skills/remotion-*
