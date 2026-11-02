@@ -82,6 +82,9 @@ account.
 | Wordless | `MassMachine` | No text: a pendulum machine that multiplies balls (`seed`, `maxBalls`) | `src/Wordless/MassMachine` |
 | Relaxing | `Breathe` | 4-4-4-4 box breathing | `src/Breathe` |
 | Cringe | `CringeChat` | Texts meant for your partner go to your boss | `src/CringeChat` |
+| Loop | `DiceLoop` | Endless loop: a cleaver dices blocks into cubes, `CUTS` / `CUBES` counters | `src/Loop/DiceLoop` |
+| Loop | `JellySquish` | Endless loop: cute jellies get squished by a press, counter per flavor | `src/Loop/JellySquish` |
+| Loop | `RibbonSlice` | Endless loop: layered soap bars sliced into curling ribbons | `src/Loop/RibbonSlice` |
 
 ## Making new videos with Claude Code
 
@@ -95,6 +98,7 @@ automatically. Then:
 | `/video-cringe [scenario]` | Cringe texting story |
 | `/video-relaxing [exercise]` | Relaxing guided exercise |
 | `/video-multiplier`, `/video-chain`, `/video-color-war`, `/video-fill`, `/video-hypnotic`, `/video-elimination`, `/video-growth`, `/video-slice`, `/video-machine`, `/video-swarm` | Wordless videos (`CLAUDE.md` item 10) |
+| `/video-loop [object]` | Endless loop: seamless satisfying video with counters (`CLAUDE.md` item 12) |
 | `/video-ideas [focus]` | Trend research and new concepts |
 
 Example: `/video-puzzle ball sort with 8 tubes, hard level`

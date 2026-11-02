@@ -16,7 +16,7 @@ First apply the **Shared Rules** in `CLAUDE.md`.
    - Hook line (first frame)
    - A 3-sentence flow
    - Why it would get a high watch, comment or save rate
-   - Which video type/skill it builds on (`/video-physics`, `/video-puzzle`, `/video-cringe`, `/video-relaxing`, wordless: `/video-multiplier`, `/video-chain`, `/video-color-war`, `/video-fill`, `/video-hypnotic`, `/video-elimination`, `/video-growth`, `/video-slice`, `/video-machine`, `/video-swarm`) or whether it is completely new
+   - Which video type/skill it builds on (`/video-physics`, `/video-puzzle`, `/video-cringe`, `/video-relaxing`, `/video-loop`, wordless: `/video-multiplier`, `/video-chain`, `/video-color-war`, `/video-fill`, `/video-hypnotic`, `/video-elimination`, `/video-growth`, `/video-slice`, `/video-machine`, `/video-swarm`) or whether it is completely new
    - Production difficulty (easy / medium / hard)
 3. Do not re-propose an idea that already exists among the videos in the project repository (look under `templates/src/`).
 4. When the user picks a concept, produce the video by following the steps of the matching skill. Do not start production before a choice is made.

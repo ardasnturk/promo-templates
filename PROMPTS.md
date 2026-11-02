@@ -11,7 +11,7 @@ Every prompt refers to the **Shared Rules** in `CLAUDE.md`. Claude loads that fi
 
 The shared rules live in **`CLAUDE.md`**. Claude Code loads that file automatically in every session in this folder.
 The slash command (skill) versions of the same video types are under `.claude/skills/`: `/video-physics`, `/video-puzzle`,
-`/video-cringe`, `/video-relaxing`, `/video-ideas`,
+`/video-cringe`, `/video-relaxing`, `/video-loop`, `/video-ideas`,
 and for wordless videos `/video-multiplier`, `/video-chain`, `/video-color-war`, `/video-fill`, `/video-hypnotic`,
 `/video-elimination`, `/video-growth`, `/video-slice`, `/video-machine`, `/video-swarm`.
 
@@ -155,6 +155,33 @@ Post caption: "[CAPTION + QUESTION]"
 - **`/video-slice` (ASMR slicing and crushing):** layered soap, kinetic sand, hydraulic press, rainbow roll, surprise core.
 - **`/video-machine` (order from chaos):** Langton's ant, sandpile, multiple ants, Game of Life, Wolfram rules.
 - **`/video-swarm` (particle swarm):** sky flock, galaxy, ocean, seasons, kaleidoscope.
+
+---
+
+## 6. Endless Loop
+*Reference: `src/Loop/DiceLoop`, `src/Loop/JellySquish`, `src/Loop/RibbonSlice` (skill: `/video-loop`)*
+
+### Template
+```
+Follow the Shared Rules in CLAUDE.md (item 12). Make a new "endless loop" video.
+Study src/Loop as a reference and reuse src/Loop/loop.ts and src/Loop/Counter.tsx.
+
+Object and action: [WHAT ARRIVES ON THE BELT AND WHAT HAPPENS TO IT]
+Materials that cycle: [3-5 ITEMS / COLORS / FLAVORS]
+Counters: "[NUMBER LABEL]" (and "[SECOND LABEL]"), counting the current item
+Rhythm: one action every [15-27] frames, loop length [15-30] s
+Look: cute, soft, pastel; [pseudo-3D cubes / side view]
+
+The last frame must flow into the first with no visible jump. Measure the T-1 → 0 pixel difference.
+Post caption: "[CAPTION + QUESTION]"
+```
+
+### Ready-made variants
+- **Dicing board:** a cleaver dices cucumber, carrot, soap and watermelon blocks into cubes. Counters: "CUTS" / "CUBES".
+- **Jelly press:** cute jellies with faces get squished and wobble back happy. Counter per flavor.
+- **Soap curls:** layered bars sliced into curling striped ribbons. Counter: "SLICES".
+- **Cookie stamp:** dough discs stamped into stars and hearts. Counter: "COOKIES".
+- **Sushi roll:** a log cut into rounds that tip over and line up. Counters: "CUTS" / "PIECES".
 
 ---
 

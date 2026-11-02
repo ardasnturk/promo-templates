@@ -23,6 +23,7 @@ Every video type is a project skill (`.claude/skills/`). Invoke it with `/skill-
 | `/video-slice` | Wordless: ASMR slicing and crushing | `src/Wordless/MassMachine` (look) |
 | `/video-machine` | Wordless: order from chaos (Langton's ant, sandpile) | `src/Wordless/MassMachine` (structure) |
 | `/video-swarm` | Wordless: a particle swarm that morphs into shapes | `src/Wordless/MassMachine` (structure) |
+| `/video-loop` | Endless loop: a seamless satisfying video with counters (dicing, squishing, slicing) | `src/Loop/DiceLoop`, `src/Loop/JellySquish`, `src/Loop/RibbonSlice` |
 | `/video-ideas` | Trend research and new concept proposals | — |
 
 Copy-paste prompt versions of the skills are in `PROMPTS.md`.
@@ -77,3 +78,10 @@ These rules apply to every video in this project (whether it is made with a skil
 11. **Delivery:**
     - Render with `npx remotion render <Id> out/<name>.mp4 --port=3100` and send me the MP4.
     - Write a short summary: concept, duration, props editable from the Studio, and known limitations.
+12. **Endless loop videos** (`/video-loop`):
+    The video must look like it never started and never ends; the last frame flows straight into the first.
+    - **Seamless:** Every position, color and random value is periodic with the video length `T` (key random values by the item's material index, not by the frame). Frame 0 sits in the middle of an action, never at an item boundary.
+    - **Text:** Only counters and labels that also loop (they count the current item and reset several times inside the video). The hook in item 4 is the counter and the motion on the first frame; the CTA goes in the post caption, not in the video.
+    - **Sound:** Soft clicks, switches and dings, placed with `loopSounds()` from `src/Loop/loop.ts` so no sound is cut off at the seam.
+    - **Check:** The pixel difference between frame `T-1` and frame 0 is about the same as between frames 0 and 1.
+    - Location: `src/Loop/<VideoName>/`, in Root under `<Folder name="Loop">`. On delivery, suggest a one-line caption and 3–5 hashtags.

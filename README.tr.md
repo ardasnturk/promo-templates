@@ -82,6 +82,9 @@ skill'ler için kendi hesabınla oturum açılmış
 | Wordless | `MassMachine` | Metinsiz: topları çoğaltan sarkaç makinesi (`seed`, `maxBalls`) | `src/Wordless/MassMachine` |
 | Relaxing | `Breathe` | 4-4-4-4 kutu nefesi | `src/Breathe` |
 | Cringe | `CringeChat` | Sevgiliye yazılan mesajlar patrona gidiyor | `src/CringeChat` |
+| Loop | `DiceLoop` | Sonsuz döngü: satır, blokları küplere doğrar, `CUTS` / `CUBES` sayaçları | `src/Loop/DiceLoop` |
+| Loop | `JellySquish` | Sonsuz döngü: sevimli jöleler preste ezilir, her tat için sayaç | `src/Loop/JellySquish` |
+| Loop | `RibbonSlice` | Sonsuz döngü: katmanlı sabun kalıpları kıvrılan şeritlere dilimlenir | `src/Loop/RibbonSlice` |
 
 ## Claude Code ile yeni video
 
@@ -95,6 +98,7 @@ yüklenir. Sonra:
 | `/video-cringe [senaryo]` | Cringe mesajlaşma hikâyesi |
 | `/video-relaxing [egzersiz]` | Rahatlatıcı rehberli egzersiz |
 | `/video-multiplier`, `/video-chain`, `/video-color-war`, `/video-fill`, `/video-hypnotic`, `/video-elimination`, `/video-growth`, `/video-slice`, `/video-machine`, `/video-swarm` | Metinsiz videolar (`CLAUDE.md` madde 10) |
+| `/video-loop [nesne]` | Sonsuz döngü: sayaçlı, başı sonu belli olmayan tatmin edici video (`CLAUDE.md` madde 12) |
 | `/video-ideas [odak]` | Trend araştırması ve yeni konseptler |
 
 Örnek: `/video-puzzle 8 tüplü top sıralama, zor seviye`
