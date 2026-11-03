@@ -79,6 +79,7 @@ account.
 | Satisfying | `BouncingBall` | A ball that grows on every bounce tries to fill the circle | `src/BouncingBall` |
 | Satisfying | `BallSort` | Colored balls get sorted into tubes (BFS solver, `seed` prop) | `src/BallSort` |
 | Satisfying | `FifteenPuzzle` | A 15 puzzle solved in the fewest moves (A*, `seed` prop) | `src/Satisfying/FifteenPuzzle` |
+| Satisfying | `WeightTest` | What happens as the weight goes up: a jelly sheet drops on balls, a steel bar on a block of cubes (1 kg → 1,000 kg) | `src/Satisfying/WeightTest` |
 | Wordless | `MassMachine` | No text: a pendulum machine that multiplies balls (`seed`, `maxBalls`) | `src/Wordless/MassMachine` |
 | Wordless | `RingEscape` | No text: balls escape a stack of rotating rings, the last one inside wins | `src/Wordless/RingEscape` |
 | Wordless | `Snowflake` | No text: a six-fold snowflake grows from a single point | `src/Wordless/Snowflake` |

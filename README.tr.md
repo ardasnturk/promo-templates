@@ -79,6 +79,7 @@ skill'ler için kendi hesabınla oturum açılmış
 | Satisfying | `BouncingBall` | Her çarpışta büyüyen top çemberi doldurmaya çalışıyor | `src/BouncingBall` |
 | Satisfying | `BallSort` | Renkli toplar tüplere sıralanıyor (BFS çözücü, `seed` prop) | `src/BallSort` |
 | Satisfying | `FifteenPuzzle` | 15 bulmacası en az hamleyle çözülüyor (A*, `seed` prop) | `src/Satisfying/FifteenPuzzle` |
+| Satisfying | `WeightTest` | Ağırlık arttıkça ne olur: jöle örtü toplara, çelik çubuk küp bloğa düşer (1 kg → 1.000 kg) | `src/Satisfying/WeightTest` |
 | Wordless | `MassMachine` | Metinsiz: topları çoğaltan sarkaç makinesi (`seed`, `maxBalls`) | `src/Wordless/MassMachine` |
 | Wordless | `RingEscape` | Metinsiz: toplar dönen halkalardan kaçar, içeride kalan son top kazanır | `src/Wordless/RingEscape` |
 | Wordless | `Snowflake` | Metinsiz: tek bir noktadan altı kollu bir kar tanesi büyür | `src/Wordless/Snowflake` |

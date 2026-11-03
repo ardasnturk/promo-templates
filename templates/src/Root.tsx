@@ -10,6 +10,7 @@ import {
   FifteenPuzzle,
   fifteenPuzzleSchema,
 } from './Satisfying/FifteenPuzzle/FifteenPuzzle';
+import {calculateWeightTestMetadata, WeightTest, weightTestSchema} from './Satisfying/WeightTest/WeightTest';
 import {calculateMassMachineMetadata, MassMachine, massMachineSchema} from './Wordless/MassMachine/MassMachine';
 import {calculateRingEscapeMetadata, RingEscape, ringEscapeSchema} from './Wordless/RingEscape/RingEscape';
 import {calculateSnowflakeMetadata, Snowflake, snowflakeSchema} from './Wordless/Snowflake/Snowflake';
@@ -56,6 +57,27 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
           defaultProps={{seed: 'fifteen-1'}}
+        />
+        <Composition
+          id="WeightTest"
+          component={WeightTest}
+          schema={weightTestSchema}
+          calculateMetadata={calculateWeightTestMetadata}
+          durationInFrames={840}
+          fps={30}
+          width={1080}
+          height={1920}
+          defaultProps={{
+            seed: 'weight-1',
+            weights: [1, 5, 20, 100, 1000],
+            unit: 'kg',
+            experiments: ['jelly', 'cubes'] as ('jelly' | 'cubes')[],
+            roundFrames: 84,
+            cubeColors: ['#8A5532', '#7E4B2B', '#965E37'],
+            hook: 'WHAT HAPPENS WHEN THE WEIGHT KEEPS GOING UP?',
+            cta: 'WHAT SHOULD WE DROP IT ON NEXT? 👇',
+            sound: true,
+          }}
         />
       </Folder>
       <Folder name="Wordless">
