@@ -80,8 +80,15 @@ skill'ler için kendi hesabınla oturum açılmış
 | Satisfying | `BallSort` | Renkli toplar tüplere sıralanıyor (BFS çözücü, `seed` prop) | `src/BallSort` |
 | Satisfying | `FifteenPuzzle` | 15 bulmacası en az hamleyle çözülüyor (A*, `seed` prop) | `src/Satisfying/FifteenPuzzle` |
 | Wordless | `MassMachine` | Metinsiz: topları çoğaltan sarkaç makinesi (`seed`, `maxBalls`) | `src/Wordless/MassMachine` |
+| Wordless | `RingEscape` | Metinsiz: toplar dönen halkalardan kaçar, içeride kalan son top kazanır | `src/Wordless/RingEscape` |
+| Wordless | `Snowflake` | Metinsiz: tek bir noktadan altı kollu bir kar tanesi büyür | `src/Wordless/Snowflake` |
+| Wordless | `TreeFill` | Metinsiz: toplar bir çam ağacını doldurur, ağaç süslü hâle gelir | `src/Wordless/TreeFill` |
+| Wordless | `SkyscraperFill` | Metinsiz: toplar Art Deco bir kuleyi doldurur, pencereleri yanar | `src/Wordless/SkyscraperFill` |
+| Wordless | `ColorWar` | Metinsiz: dört renk bir ızgarada toprak kapmak için savaşır | `src/Wordless/ColorWar` |
 | Relaxing | `Breathe` | 4-4-4-4 kutu nefesi | `src/Breathe` |
+| Relaxing | `SleepBreath` | Uykuya dalmak için 4-7-8 nefesi, kesintisiz döngü | `src/Relaxing/SleepBreath` |
 | Cringe | `CringeChat` | Sevgiliye yazılan mesajlar patrona gidiyor | `src/CringeChat` |
+| Cringe | `FamilyAirFryer` | Air fryer sayısının durmadan arttığı bir aile grup sohbeti | `src/Cringe/FamilyAirFryer` |
 | Loop | `DiceLoop` | Sonsuz döngü: satır, blokları küplere doğrar, `CUTS` / `CUBES` sayaçları | `src/Loop/DiceLoop` |
 | Loop | `JellySquish` | Sonsuz döngü: sevimli jöleler preste ezilir, her tat için sayaç | `src/Loop/JellySquish` |
 | Loop | `RibbonSlice` | Sonsuz döngü: katmanlı sabun kalıpları kıvrılan şeritlere dilimlenir | `src/Loop/RibbonSlice` |

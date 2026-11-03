@@ -80,8 +80,15 @@ account.
 | Satisfying | `BallSort` | Colored balls get sorted into tubes (BFS solver, `seed` prop) | `src/BallSort` |
 | Satisfying | `FifteenPuzzle` | A 15 puzzle solved in the fewest moves (A*, `seed` prop) | `src/Satisfying/FifteenPuzzle` |
 | Wordless | `MassMachine` | No text: a pendulum machine that multiplies balls (`seed`, `maxBalls`) | `src/Wordless/MassMachine` |
+| Wordless | `RingEscape` | No text: balls escape a stack of rotating rings, the last one inside wins | `src/Wordless/RingEscape` |
+| Wordless | `Snowflake` | No text: a six-fold snowflake grows from a single point | `src/Wordless/Snowflake` |
+| Wordless | `TreeFill` | No text: balls fill a pine tree that ends up decorated | `src/Wordless/TreeFill` |
+| Wordless | `SkyscraperFill` | No text: balls fill an Art Deco tower and light up its windows | `src/Wordless/SkyscraperFill` |
+| Wordless | `ColorWar` | No text: four colors fight over a grid of territory | `src/Wordless/ColorWar` |
 | Relaxing | `Breathe` | 4-4-4-4 box breathing | `src/Breathe` |
+| Relaxing | `SleepBreath` | 4-7-8 breathing for falling asleep, seamless loop | `src/Relaxing/SleepBreath` |
 | Cringe | `CringeChat` | Texts meant for your partner go to your boss | `src/CringeChat` |
+| Cringe | `FamilyAirFryer` | A family group chat where the air fryer count keeps climbing | `src/Cringe/FamilyAirFryer` |
 | Loop | `DiceLoop` | Endless loop: a cleaver dices blocks into cubes, `CUTS` / `CUBES` counters | `src/Loop/DiceLoop` |
 | Loop | `JellySquish` | Endless loop: cute jellies get squished by a press, counter per flavor | `src/Loop/JellySquish` |
 | Loop | `RibbonSlice` | Endless loop: layered soap bars sliced into curling ribbons | `src/Loop/RibbonSlice` |
